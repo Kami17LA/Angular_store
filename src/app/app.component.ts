@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+/* vincula la vista hacia esa logica */
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'store';
+  /* podemos crear metodos aqui*/
 }
